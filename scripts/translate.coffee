@@ -133,7 +133,7 @@ translate = (msg, fromLang, toLang) ->
               else
                 # msg.send "The #{language} #{phrase} translates as #{parsed} in #{languages[toLang]}"
                 # msg.send "#{phrase}(#{language}) <=> #{parsed}(#{languages[toLang]})"
-                msg.send "#{parsed}"
+                msg.reply "#{parsed}"
           else
             throw new SyntaxError 'Invalid JS code'
 
