@@ -3,6 +3,3 @@ responses = ['要吃就吃肉牛犊！', '来，干了这碗肉牛犊再上路�
 module.exports = (robot) ->
   robot.hear /.*[fan|chi|eat|吃|飯|饭|饿].*/i, (res) -> 
     res.send res.random responses
-
-  robot.hear /.*[龟派气功|かめはめ|kamehame].*/i, (res) -> 
-    res.send "かーめーはーめーーーーーーっ、波ァァァァァァアアア!!!"
